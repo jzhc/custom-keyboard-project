@@ -1,0 +1,7654 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "229ff22b-e6ee-4266-a697-5b75022c8c4f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_SPDT_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.2032) (xy 2.3368 1.9812)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "keebs:PRO MICRO NRF USE THIS ONE PLEASE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MCU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "PRO MICRO NRF"
+				(at -0.254 -20.828 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "NRF PRO MICRO"
+				(at 0.254 -3.048 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 26.67 -63.5 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PRO MICRO NRF USE THIS ONE PLEASE_0_1"
+				(rectangle
+					(start -10.16 16.51)
+					(end 10.16 -19.05)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PRO MICRO NRF USE THIS ONE PLEASE_1_1"
+				(pin input line
+					(at -15.24 13.97 0)
+					(length 5.08)
+					(name "B-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -8.89 0)
+					(length 5.08)
+					(name "100"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -11.43 0)
+					(length 5.08)
+					(name "011"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -13.97 0)
+					(length 5.08)
+					(name "104"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -16.51 0)
+					(length 5.08)
+					(name "106"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -16.51 180)
+					(length 5.08)
+					(name "009"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -13.97 180)
+					(length 5.08)
+					(name "010"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -11.43 180)
+					(length 5.08)
+					(name "111"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -8.89 180)
+					(length 5.08)
+					(name "113"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -6.35 180)
+					(length 5.08)
+					(name "115"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name "002"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 11.43 0)
+					(length 5.08)
+					(name "006"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -1.27 180)
+					(length 5.08)
+					(name "029"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 1.27 180)
+					(length 5.08)
+					(name "031"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 3.81 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 6.35 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 8.89 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 11.43 180)
+					(length 5.08)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 13.97 180)
+					(length 5.08)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 8.89 0)
+					(length 5.08)
+					(name "008"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 3.81 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 5.08)
+					(name "017"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -1.27 0)
+					(length 5.08)
+					(name "020"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 5.08)
+					(name "022"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 5.08)
+					(name "024"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "keebs:Placeholder_Diode"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Diode"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Diode_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Placeholder_Diode_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "keebs:Placeholder_Keyswitch"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Keyswitch"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Keyswitch_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 106.68 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0004d85f-40fd-48b7-88f3-e68af67c3896")
+	)
+	(junction
+		(at 57.15 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "022bf614-e40c-4a66-9087-080da35be9b4")
+	)
+	(junction
+		(at 101.6 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dbaf500-3a47-4f54-b666-9f6186e0e162")
+	)
+	(junction
+		(at 96.52 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e49be1f-c609-4d37-9bdc-fff055687eea")
+	)
+	(junction
+		(at 106.68 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eae36f2-1988-4458-bd67-7c25fea96024")
+	)
+	(junction
+		(at 106.68 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e9185eb-87c8-41cb-a2bc-63661e6c3f06")
+	)
+	(junction
+		(at 91.44 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "280fba25-7260-4529-ab1f-831ef3ab46eb")
+	)
+	(junction
+		(at 96.52 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2864d3c0-ace7-4f32-9bb1-5a39d838af5b")
+	)
+	(junction
+		(at 80.01 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b195351-44f8-4b32-8c57-46199c38596e")
+	)
+	(junction
+		(at 91.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "303bce63-b530-475d-9c5c-1c69a1e9cf33")
+	)
+	(junction
+		(at 57.15 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "304526fa-196d-47f6-a3c3-ff64f0d210bc")
+	)
+	(junction
+		(at 68.58 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33cfb6d1-4ccd-429f-8edf-f53243ad1c22")
+	)
+	(junction
+		(at 73.66 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34345ff2-f8f7-4499-a445-5101b00bf622")
+	)
+	(junction
+		(at 57.15 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "347c0901-9afa-4c9a-8a92-fe3b73d3dcce")
+	)
+	(junction
+		(at 106.68 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b93ec81-8c71-4f6c-abde-a6e0256177f9")
+	)
+	(junction
+		(at 80.01 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45777c35-7213-4f7d-860d-b62fa9ae8feb")
+	)
+	(junction
+		(at 80.01 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4615df0c-f53c-41a1-99ac-3d0e91d085e3")
+	)
+	(junction
+		(at 85.09 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de357dd-efd1-4c9e-a1e2-ff9f8e041d3b")
+	)
+	(junction
+		(at 68.58 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4edc8a1d-2f4f-49f4-990f-ccb6a84e6dab")
+	)
+	(junction
+		(at 85.09 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51bcb703-e025-4e6f-af24-ee6f1de8368c")
+	)
+	(junction
+		(at 80.01 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5426cac7-9531-4203-8ba0-b06e999958fd")
+	)
+	(junction
+		(at 91.44 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59854276-734d-4757-87ac-b7517ffc8f55")
+	)
+	(junction
+		(at 106.68 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ba1a5f3-ce16-43cd-b876-2e809513ead9")
+	)
+	(junction
+		(at 62.23 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e360467-f19a-4588-9c89-1e092f485850")
+	)
+	(junction
+		(at 85.09 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e5f13b2-5010-4d79-a20c-1b6e975154c3")
+	)
+	(junction
+		(at 73.66 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e7550fa-6813-482c-a5ca-676c5f0c7736")
+	)
+	(junction
+		(at 101.6 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61025049-eb1f-4dce-9edd-d3970b3e3ae5")
+	)
+	(junction
+		(at 91.44 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6538cac4-c07a-4728-bf81-3dca7cacd76b")
+	)
+	(junction
+		(at 80.01 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7093837f-a429-40ab-b381-0c8d5e2bc43a")
+	)
+	(junction
+		(at 80.01 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78c0ca57-dec4-4542-a50f-b705a8475141")
+	)
+	(junction
+		(at 85.09 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d6906f6-3761-4a0f-b3a4-f45c148ca11a")
+	)
+	(junction
+		(at 91.44 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d79271f-0484-4558-9236-247a1d159e12")
+	)
+	(junction
+		(at 101.6 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "899ae9a1-8615-4a53-864d-90d2556883e4")
+	)
+	(junction
+		(at 68.58 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d80abfa-b202-4506-b002-f475cb30aff8")
+	)
+	(junction
+		(at 57.15 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "967b139e-b990-41b5-9b41-af44e08a930f")
+	)
+	(junction
+		(at 91.44 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98f60702-e0ff-4358-a654-42c3ebc938cb")
+	)
+	(junction
+		(at 62.23 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a8175c9-4f4f-4154-bb5a-be45eb604476")
+	)
+	(junction
+		(at 101.6 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d130a54-ea17-472a-a728-6422a0c9022c")
+	)
+	(junction
+		(at 96.52 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9df51f82-7aad-48ea-a34e-9859be838520")
+	)
+	(junction
+		(at 96.52 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fee4187-644c-4a74-9670-dda5343e300b")
+	)
+	(junction
+		(at 80.01 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a190f395-2e52-406d-8d0f-9ba623e4e0b6")
+	)
+	(junction
+		(at 96.52 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c1a99c-38bc-4889-a041-a5fd2e3b8818")
+	)
+	(junction
+		(at 73.66 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8bfd546-99e1-4496-b980-df2ce7c9d1e2")
+	)
+	(junction
+		(at 62.23 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac01194-e8a6-4716-9566-264ac8f3d3bf")
+	)
+	(junction
+		(at 73.66 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae9a330e-b399-4253-a8b5-e0b0ae91ebcb")
+	)
+	(junction
+		(at 101.6 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af65f711-17dc-4e96-85b1-8e7570ecbdf9")
+	)
+	(junction
+		(at 106.68 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b23cd432-6b31-450c-a458-26d4d4777b0b")
+	)
+	(junction
+		(at 57.15 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2de0c8b-d4f0-48c1-b080-c376bb6e87f9")
+	)
+	(junction
+		(at 57.15 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a57288-e372-4971-8ebd-4234ec5b6ade")
+	)
+	(junction
+		(at 101.6 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9a814cc-ae2c-4347-b39a-107951a794c0")
+	)
+	(junction
+		(at 68.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9d33539-da26-48e4-8cf4-baf618c71d3c")
+	)
+	(junction
+		(at 85.09 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be4bd436-a190-477e-afac-c2e33f87e004")
+	)
+	(junction
+		(at 96.52 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c80fab6b-3b85-41a7-b5b4-59727d4ed005")
+	)
+	(junction
+		(at 57.15 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dda0c6f5-556a-4daa-86ed-fd0edeaec1c3")
+	)
+	(junction
+		(at 85.09 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de20af72-cb42-454b-a54d-eb5ef1c4d8f1")
+	)
+	(junction
+		(at 96.52 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e379c114-c81c-4be5-98ee-b86d20b53a08")
+	)
+	(junction
+		(at 68.58 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e72058ae-e353-4f7f-837d-3062a9f640ce")
+	)
+	(junction
+		(at 62.23 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b64f69-d0b7-4053-a3fd-ecc9069049eb")
+	)
+	(junction
+		(at 106.68 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea46f990-791f-48a3-916e-d9f20176201e")
+	)
+	(junction
+		(at 85.09 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb730a51-d9ba-4d79-9d2d-17d02e539a41")
+	)
+	(junction
+		(at 101.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9d8247-f146-4c59-83b5-d73ce35196e3")
+	)
+	(junction
+		(at 73.66 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef46920b-5a15-45be-9637-b36ea3e0d6f4")
+	)
+	(junction
+		(at 106.68 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f04c53a1-b4e1-4ee0-80b3-f5a61fca69c6")
+	)
+	(junction
+		(at 85.09 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f09759f4-60d7-4373-94ef-f450b3275e16")
+	)
+	(junction
+		(at 96.52 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f48de7e7-084f-4b1f-83f8-7ac6f76fe1a9")
+	)
+	(junction
+		(at 91.44 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f657be51-bdd0-438b-8bd7-d4ffc3e3b9b3")
+	)
+	(junction
+		(at 73.66 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feff188c-f76c-4758-b7c9-d50a53b74344")
+	)
+	(wire
+		(pts
+			(xy 57.15 143.51) (xy 57.15 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b85b67-f6db-4297-914f-b6fda5ec76ec")
+	)
+	(wire
+		(pts
+			(xy 96.52 92.71) (xy 96.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01fd737f-de85-4252-97bd-8bb49fa08729")
+	)
+	(wire
+		(pts
+			(xy 57.15 123.19) (xy 57.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043067d7-49b4-499f-88bf-108d65f8991a")
+	)
+	(wire
+		(pts
+			(xy 205.74 107.95) (xy 205.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05968c21-4ded-4eb9-bd09-4edf89b41f93")
+	)
+	(wire
+		(pts
+			(xy 80.01 143.51) (xy 80.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082ee53b-ca71-4b34-8685-7de2e7819b00")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4817cb-a099-443d-a9c3-fa6212478af6")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0c726d-e368-490e-95d7-ce7c635ee292")
+	)
+	(wire
+		(pts
+			(xy 91.44 143.51) (xy 91.44 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc0d416-f253-44f1-b9cd-c69d5cc4dec1")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102d0822-5df2-45a1-a5aa-acbc865702c1")
+	)
+	(wire
+		(pts
+			(xy 85.09 148.59) (xy 85.09 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17489a91-e001-4e91-a7f1-cf4c907a7537")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 91.44 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c4eb2a-c729-4057-90df-b71f4f597912")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 62.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18921c97-6e10-49f9-ac76-870d00172c87")
+	)
+	(wire
+		(pts
+			(xy 96.52 119.38) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abe57ab-6049-407f-b82d-238fd824b9d6")
+	)
+	(wire
+		(pts
+			(xy 85.09 86.36) (xy 85.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca82f54-86f4-4e4f-856c-9b592d28eac7")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efac9f6-a093-431b-af68-9969a3138ce7")
+	)
+	(wire
+		(pts
+			(xy 85.09 138.43) (xy 96.52 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f783d5a-df99-4347-b50a-5ac7815836b3")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 96.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242ee14f-61d7-4031-bbeb-3cd3a16e256f")
+	)
+	(wire
+		(pts
+			(xy 73.66 127) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2572b3ef-662e-43c6-b1e7-de9abbb48984")
+	)
+	(wire
+		(pts
+			(xy 80.01 44.45) (xy 80.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2726177d-7db3-4338-b351-c97a2e3babb1")
+	)
+	(wire
+		(pts
+			(xy 68.58 44.45) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2922315d-1467-4e91-be68-4c74a4c391c4")
+	)
+	(wire
+		(pts
+			(xy 106.68 127) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be16efa-407f-49a7-8492-050e4887c32c")
+	)
+	(wire
+		(pts
+			(xy 62.23 163.83) (xy 85.09 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da3b9a8-8127-4583-a4f4-105d73e8f3ad")
+	)
+	(wire
+		(pts
+			(xy 73.66 92.71) (xy 73.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30010dc5-bca5-40e1-8dfd-bb42e3052574")
+	)
+	(wire
+		(pts
+			(xy 91.44 114.3) (xy 91.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393458d2-a63d-4d0c-9b11-64c4b2637eb4")
+	)
+	(wire
+		(pts
+			(xy 96.52 154.94) (xy 96.52 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2d8dcb-64d5-438f-907f-4f6c9f870bbb")
+	)
+	(wire
+		(pts
+			(xy 96.52 163.83) (xy 106.68 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7de44b-7892-4022-8433-5c0915799fa0")
+	)
+	(wire
+		(pts
+			(xy 106.68 154.94) (xy 106.68 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400e1b8c-a592-49f8-8b40-eb5b1e2a6392")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 96.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4028d777-c35c-4b11-bdfc-dfd135c3a6b8")
+	)
+	(wire
+		(pts
+			(xy 80.01 87.63) (xy 80.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40736c8f-535c-4c28-a99f-9e67abc1f7d7")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ddba69-a550-41b1-94b3-c3055a0cfa96")
+	)
+	(wire
+		(pts
+			(xy 62.23 138.43) (xy 73.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43413877-bfd1-45d8-9c1a-acfdc23ec416")
+	)
+	(wire
+		(pts
+			(xy 106.68 73.66) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a9a29f-0dd6-4936-863d-e219d90fff9a")
+	)
+	(wire
+		(pts
+			(xy 101.6 143.51) (xy 101.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4497c077-e7bf-4b6c-9b1e-c32240c298cf")
+	)
+	(wire
+		(pts
+			(xy 106.68 138.43) (xy 116.84 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45487b02-9877-494d-a9fd-a9ee2118ffa6")
+	)
+	(wire
+		(pts
+			(xy 91.44 87.63) (xy 91.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498d6f72-5b64-41dd-b49d-e437195c33ca")
+	)
+	(wire
+		(pts
+			(xy 106.68 92.71) (xy 106.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b471c01-a522-480a-aafa-71ad06ebddfb")
+	)
+	(wire
+		(pts
+			(xy 91.44 58.42) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9dd2f1-1b22-4d29-a5a3-d9e9b39d336e")
+	)
+	(wire
+		(pts
+			(xy 57.15 58.42) (xy 57.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e7f5c8-3573-4a48-b473-fdb46f6b19d6")
+	)
+	(wire
+		(pts
+			(xy 73.66 55.88) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ca3a78-e133-4c16-a297-808db91c270f")
+	)
+	(wire
+		(pts
+			(xy 106.68 148.59) (xy 106.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a752066-6e5b-4609-8306-0c2dd3632b56")
+	)
+	(wire
+		(pts
+			(xy 106.68 55.88) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bff5875-5016-418b-be9e-bb760bb8f15f")
+	)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfb3568-fbfb-48f5-a29f-022678794e77")
+	)
+	(wire
+		(pts
+			(xy 62.23 86.36) (xy 62.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2efa01-2fa1-4368-85aa-52281e9294cb")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 85.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602e8c48-a8de-4063-b9ab-8f659a704c34")
+	)
+	(wire
+		(pts
+			(xy 57.15 114.3) (xy 57.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ca1950-edef-4bf8-924f-10a45b354913")
+	)
+	(wire
+		(pts
+			(xy 80.01 81.28) (xy 80.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b6f0ee-0172-4889-833d-5b7499d86325")
+	)
+	(wire
+		(pts
+			(xy 73.66 138.43) (xy 85.09 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ba4ab6-e378-48d9-bf38-9edfa08f2a43")
+	)
+	(wire
+		(pts
+			(xy 73.66 63.5) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641d4ace-344e-438f-a653-f11663e07663")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6538cf20-85a3-4e0a-a8c9-11b0df6ae537")
+	)
+	(wire
+		(pts
+			(xy 85.09 119.38) (xy 85.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d28fd3-27d9-4ee7-9265-33e18d397ed9")
+	)
+	(wire
+		(pts
+			(xy 57.15 44.45) (xy 57.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683e4c1f-f04c-4a49-b5a3-e62f95d64f03")
+	)
+	(wire
+		(pts
+			(xy 62.23 154.94) (xy 62.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69051524-045a-480d-bb6f-f1f802f3db91")
+	)
+	(wire
+		(pts
+			(xy 101.6 121.92) (xy 101.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5c98af-0186-478f-9ce2-8ac9aa7141e4")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db1b652-3069-47f4-8f9f-c6467b3c7c20")
+	)
+	(wire
+		(pts
+			(xy 85.09 73.66) (xy 96.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7fdd3b-1348-48e5-bfd3-93e58d675a74")
+	)
+	(wire
+		(pts
+			(xy 195.58 124.46) (xy 231.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb0d4c4-6ea1-4a01-a2b0-f97ea81acb88")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 68.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebe7d2e-0029-48bf-8738-71aaed4b3a72")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710cb719-2e6b-44f9-b7ea-9fc4c79a654e")
+	)
+	(wire
+		(pts
+			(xy 106.68 63.5) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e03813-7b24-426c-b0b8-6d88e6209b92")
+	)
+	(wire
+		(pts
+			(xy 85.09 163.83) (xy 96.52 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7541ae59-5bee-424c-93f9-84c8a5cad776")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a0d25f-bb49-4134-8ac6-742d7e3db83c")
+	)
+	(wire
+		(pts
+			(xy 85.09 55.88) (xy 85.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765993ed-fba1-46db-9c2f-ca5086539f59")
+	)
+	(wire
+		(pts
+			(xy 181.61 118.11) (xy 184.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d1d057-6fbb-4aac-b2ac-056406d9c0e1")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 85.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9d8aa1-e739-4d78-bd5d-21d97b212300")
+	)
+	(wire
+		(pts
+			(xy 184.15 118.11) (xy 184.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b037b87-4145-4790-aef8-810a3eb66f07")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f87091-e9cd-460c-a08f-0d038fa5b8b6")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.5) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813a8f9d-3157-4367-b2f2-99cf6888c869")
+	)
+	(wire
+		(pts
+			(xy 96.52 148.59) (xy 96.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8258d856-0bb6-4e16-a849-ab2730575c26")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 80.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c6eabd-3597-406e-852a-be044824bd69")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9424447a-986c-4c12-b736-b1899f522388")
+	)
+	(wire
+		(pts
+			(xy 57.15 50.8) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b5296a-7ae0-4688-8dbf-7318c297add3")
+	)
+	(wire
+		(pts
+			(xy 91.44 121.92) (xy 91.44 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f93058-bcdb-4619-84f5-0b974f38d694")
+	)
+	(wire
+		(pts
+			(xy 68.58 114.3) (xy 68.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a667314-6357-4cc5-9a73-5b76b8fbe155")
+	)
+	(wire
+		(pts
+			(xy 62.23 148.59) (xy 62.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e849fa-b82a-4753-9019-c479aeaab941")
+	)
+	(wire
+		(pts
+			(xy 106.68 119.38) (xy 106.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a671dfb5-85f3-4428-80e1-1c1b93baf8fa")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fe2997-5bc4-4b55-9a0d-41b67b531ed3")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad015c99-5884-4bc3-8ca5-475382cea57b")
+	)
+	(wire
+		(pts
+			(xy 80.01 121.92) (xy 80.01 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08e1610-925f-46b4-8329-50a85d304304")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3beedd8-5ab0-4bc5-81db-1b2dc769b9b1")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 62.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47e08d7-dd3f-4d13-a875-731ff5296e2c")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 106.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b502121b-f490-4056-b92e-0bbdd032ec63")
+	)
+	(wire
+		(pts
+			(xy 57.15 81.28) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50f53c5-fd41-4df2-9b41-fc311796e114")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 101.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f90f42-77b9-4c6b-a9e5-8880d023f574")
+	)
+	(wire
+		(pts
+			(xy 91.44 44.45) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a58d17-4650-4047-b082-af4cacd0a756")
+	)
+	(wire
+		(pts
+			(xy 218.44 63.5) (xy 231.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9efddb5-0549-4645-9845-e220cc2f7ad6")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 101.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc15b126-ace8-46e1-91ab-97ce4f371cc8")
+	)
+	(wire
+		(pts
+			(xy 62.23 119.38) (xy 62.23 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6db80b-9c26-4b98-840d-739ab47db02d")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf175ce2-b4a8-44e3-b3ff-9b18e5a2a5ec")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c258340d-3462-468c-8366-bc92833f82de")
+	)
+	(wire
+		(pts
+			(xy 62.23 104.14) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6466d72-f0ce-4d8c-98cf-30cebd64d00d")
+	)
+	(wire
+		(pts
+			(xy 85.09 127) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c657ea4d-9d17-4cc2-b227-6b9f50f64877")
+	)
+	(wire
+		(pts
+			(xy 231.14 63.5) (xy 231.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb198ccb-be6e-4f36-ab1a-53d7aaa54880")
+	)
+	(wire
+		(pts
+			(xy 101.6 58.42) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08704fc-d653-4542-aa89-ae93b47b7155")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 116.84 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73abcd8-531d-4a9d-ae6d-c7a2a9ca6ead")
+	)
+	(wire
+		(pts
+			(xy 96.52 127) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc89751e-5812-4742-a8ed-ce5c174accb2")
+	)
+	(wire
+		(pts
+			(xy 195.58 118.11) (xy 195.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c2913e-b5f8-41fd-b7e9-a8309f281d81")
+	)
+	(wire
+		(pts
+			(xy 62.23 128.27) (xy 62.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9b5f27-6a01-4a67-a24d-83fafd59f1fa")
+	)
+	(wire
+		(pts
+			(xy 85.09 154.94) (xy 85.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb431e3-8d01-4182-a095-f91c17d9fa50")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30f76df-2a46-41ff-bb01-6a00b9fb4ba3")
+	)
+	(wire
+		(pts
+			(xy 184.15 107.95) (xy 205.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f373130a-3b21-4136-98cf-774060a2ad3f")
+	)
+	(wire
+		(pts
+			(xy 101.6 44.45) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43a54f6-bf9a-444b-afd1-836acc024f52")
+	)
+	(wire
+		(pts
+			(xy 85.09 92.71) (xy 85.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b7fb39-709c-4323-b0a7-90abf2ecacf6")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 80.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff500b95-a8cf-4874-94e8-0c245678a200")
+	)
+	(global_label "row bot"
+		(shape input)
+		(at 116.84 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ba3c29a-b934-4576-84eb-9530fb09fca8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.0822 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column  middle"
+		(shape input)
+		(at 80.01 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33dd4f51-2bfc-4297-ba44-327454b1abf9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 26.2856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column index"
+		(shape input)
+		(at 91.44 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35365160-6df0-4188-8d94-069310c1a710")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 28.5836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row mid"
+		(shape input)
+		(at 116.84 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "479834c8-f2b6-4bc1-95cb-512f04cd58c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.5056 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row bot"
+		(shape input)
+		(at 218.44 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a91c913-98bf-4b59-b014-11ba51e5e3a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6822 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row low"
+		(shape input)
+		(at 218.44 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77ee2b81-e683-4fb7-963d-7a04215815c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.8032 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row mid"
+		(shape input)
+		(at 218.44 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "926afe30-21c6-4bf5-a41e-050ab9b5a818")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.1056 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row top"
+		(shape input)
+		(at 116.84 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99832e2d-89c5-494e-b224-72acbfef1c9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.0822 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column  ring"
+		(shape input)
+		(at 68.58 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8b3d028-3647-4800-bfd0-4114d57fb5e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 28.9465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row low"
+		(shape input)
+		(at 116.84 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae345aca-bda2-437b-9d15-a59c1c1ed6d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2032 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column inner"
+		(shape input)
+		(at 187.96 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b362bbd8-0deb-4edf-9dd2-5e5359a83955")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.3355 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column  ring"
+		(shape input)
+		(at 187.96 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b654a9bc-6255-424c-9820-9a2da062e6fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.4565 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row top"
+		(shape input)
+		(at 218.44 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc6ca5fb-60bd-48ea-83bc-23f18b208f7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6822 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "gnd"
+		(shape input)
+		(at 181.61 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c263627a-0ef0-49fd-9397-5ee3097d75f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1778 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column inner"
+		(shape input)
+		(at 101.6 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7944903-9c43-4c90-ae70-6d04efde233c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 28.8255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column index"
+		(shape input)
+		(at 187.96 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de586106-817c-4c52-b80b-41ca3f4c6618")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.0936 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column  middle"
+		(shape input)
+		(at 187.96 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec60cbf1-7a83-413e-a5da-5df1b137b2be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7956 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column pinky"
+		(shape input)
+		(at 57.15 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eef51694-d690-41b6-b1f9-9d25714f7d73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 28.7046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "gnd"
+		(shape input)
+		(at 218.44 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efa32b68-5dc4-498b-bbc7-e221e0d26890")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.8722 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "column pinky"
+		(shape input)
+		(at 187.96 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0e2b141-7560-4ff4-a4c8-ff1b899211ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.2146 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 104.14 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "088b9aac-a169-4eff-a9fc-57fc4963ca62")
+		(property "Reference" "S34"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "094c569c-fa60-4b62-9200-8b345224463c")
+		)
+		(pin "1"
+			(uuid "4750f612-bcd2-4fb4-8a22-eb744bd832d9")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 62.23 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09fba6f4-613c-4a0c-ae6d-800973903ff0")
+		(property "Reference" "D2"
+			(at 64.77 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 64.77 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "348a8eb0-7673-4697-a232-a346dbf49ec7")
+		)
+		(pin "2"
+			(uuid "f80a953a-b270-4d08-b83c-ac6b6edb784c")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_SPDT")
+		(at 200.66 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0abe75c8-9f6b-4fa9-8982-dc98e59c0c06")
+		(property "Reference" "SW1"
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_SPDT"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 200.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 200.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53935142-7e0c-4c3f-9faa-b0aa7b3f20f8")
+		)
+		(pin "3"
+			(uuid "3096c5a4-4d0d-422b-91ff-d01faac942cb")
+		)
+		(pin "1"
+			(uuid "4dddc0a4-be58-477f-bc07-c72c964da9fb")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 71.12 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f4d7873-27f0-4307-b029-13d5596b89b7")
+		(property "Reference" "S5"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7423486-5c56-450a-8bca-bbb3107aedf5")
+		)
+		(pin "1"
+			(uuid "b75470d4-4cc0-41d5-b678-2d984e6dbfe1")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 59.69 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15b4fdf1-d8d7-4f2d-9d1a-67a53a85bc82")
+		(property "Reference" "S2"
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03554518-cc5e-46ac-98a3-a5d6e450f972")
+		)
+		(pin "1"
+			(uuid "3ffd85af-3474-492b-8fe1-90f6fa13b318")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 96.52 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1859fc75-d7df-40d9-9091-d1d9e84e6d1b")
+		(property "Reference" "D14"
+			(at 99.06 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 99.06 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd8a2cd5-2dff-43dd-b94b-07cd22777ed3")
+		)
+		(pin "2"
+			(uuid "6325d97f-1a9b-4908-a180-3bfc0273e453")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 82.55 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a401f4b-628c-46bc-a9e7-58c90d13627b")
+		(property "Reference" "S11"
+			(at 82.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 82.55 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 82.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5144bcee-d79e-4c1f-8f06-c9e4bd46b997")
+		)
+		(pin "1"
+			(uuid "03425494-f028-4c68-b403-577ec961fc55")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 104.14 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c4f29b4-afff-4450-8146-961d5e71f225")
+		(property "Reference" "S17"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 104.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb38f395-5e49-427c-a539-488ff6843b87")
+		)
+		(pin "1"
+			(uuid "055d64a3-8b93-4cc3-bd9d-deec44a223cc")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 82.55 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc18ef8-23aa-4ef1-8292-1c83c21739bf")
+		(property "Reference" "S27"
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23ecee16-eae3-4e73-9e0c-041e832f00a8")
+		)
+		(pin "1"
+			(uuid "03e12e5d-91f9-48d1-b697-75ce8eba2c9f")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 82.55 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33099d70-b706-4d8a-97b7-a0bd846dfba8")
+		(property "Reference" "S9"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 82.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14a963eb-56f2-4fe8-8ec0-903e3fa06e10")
+		)
+		(pin "1"
+			(uuid "0f6bb886-b2cc-4482-b7d2-8c67f79f3514")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 85.09 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35090b04-7754-4bf1-9615-6ea2b569461c")
+		(property "Reference" "D10"
+			(at 87.63 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 87.63 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4b7d37d-ffcb-4495-b20d-e65ed0838f38")
+		)
+		(pin "2"
+			(uuid "144d43f9-822a-47b9-ab5a-daa1a84b5634")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 59.69 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "353c08c9-258d-4b42-9b05-4eda8297e97a")
+		(property "Reference" "S4"
+			(at 59.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38a05789-7fab-42eb-a4e5-e48f21ceaeee")
+		)
+		(pin "1"
+			(uuid "eb8727ad-2469-451e-ae0f-a085ec912bce")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 104.14 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37e660c0-6271-4006-9d7d-ec6fbdeb80d4")
+		(property "Reference" "S24"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68fb7419-3fc2-4137-9895-fe603ffb8aeb")
+		)
+		(pin "1"
+			(uuid "22aaa620-f533-4a22-a546-def0b5909e0a")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 96.52 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "512a7bb0-b58f-44e6-826d-c3b5c632648d")
+		(property "Reference" "D13"
+			(at 99.06 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 99.06 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b5c4fb1-b05d-478c-bd2d-12c74c72108e")
+		)
+		(pin "2"
+			(uuid "fe8e0b3c-e4a6-4b1d-8778-59075183c5f8")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 71.12 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55d4a293-c4f8-4a54-976e-2015d7d3b06d")
+		(property "Reference" "S26"
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 71.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "423aba1c-ca07-4e15-a6d4-722e9f5d5963")
+		)
+		(pin "1"
+			(uuid "2028a597-c565-4ef0-a263-6a1bfc03b4ff")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 82.55 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5654662b-996e-40ce-8dd3-b06beb55ba7e")
+		(property "Reference" "S32"
+			(at 82.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6e9fd47-8887-4d30-925f-0d3aca4837ba")
+		)
+		(pin "1"
+			(uuid "18638b93-4cc7-49d7-8419-5596a709843c")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 96.52 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56689abe-2410-4ac3-933a-c97f4b547ad1")
+		(property "Reference" "D12"
+			(at 99.06 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 99.06 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c271113a-3ca0-41f9-9638-eef2438d9696")
+		)
+		(pin "2"
+			(uuid "fd9c07a2-a3a2-4497-bb9e-7441fa31f13d")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 59.69 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "572fdf68-89e7-42df-b57b-05519323e486")
+		(property "Reference" "S30"
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "635f70f3-291f-4b0e-81d4-7694be3df01b")
+		)
+		(pin "1"
+			(uuid "828910b2-75c7-4964-94a1-6e1d48e4d547")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 93.98 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae03db8-b07f-4823-844f-6c9f2609e84e")
+		(property "Reference" "S28"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f718ecc4-2fa3-4fa8-8586-c48c18a64664")
+		)
+		(pin "1"
+			(uuid "9bd5e28a-7dbc-4812-bef3-08b5bfdf70f6")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 73.66 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60efb07c-94e7-4dc5-8c2a-de2bb93fbf4b")
+		(property "Reference" "D5"
+			(at 76.2 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 76.2 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2cbc5e7-68b8-4baf-86de-b10338e99f1e")
+		)
+		(pin "2"
+			(uuid "1bd64614-abd9-4427-9e69-a89628127bad")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 93.98 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ff15dc-e3c7-41e7-8b0b-7329b4a91ba9")
+		(property "Reference" "S14"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3fd1581-5a3b-4777-b8f8-55b7d546c90a")
+		)
+		(pin "1"
+			(uuid "d9f3e90b-0d83-4b2a-bdfa-a32b0552e40c")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 71.12 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c2ade2e-053e-4193-bde4-1afe25650bb0")
+		(property "Reference" "S7"
+			(at 71.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c78503fc-8206-42e3-ba5b-78717c4542da")
+		)
+		(pin "1"
+			(uuid "6c77f690-8fd4-44b3-8571-b80ea3145527")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 82.55 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73c69150-8f1b-4f13-9b46-94299744c98e")
+		(property "Reference" "S10"
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 82.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 82.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8b80cf2-1ce6-4b08-83ca-70c1ac7f72b8")
+		)
+		(pin "1"
+			(uuid "ac01e7b4-7fcd-43f3-af98-80b501e7f25a")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 62.23 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "747da6cf-24e5-4c9f-9cd4-bda9bf9357c2")
+		(property "Reference" "D3"
+			(at 64.77 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 64.77 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6d43986-7d59-44e2-947d-f2f9e10b8e6e")
+		)
+		(pin "2"
+			(uuid "a448da8b-f6ff-416c-a6fa-a155d4697b6e")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 106.68 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77434f7d-9b8e-4b4c-97c3-b686066c0b91")
+		(property "Reference" "D18"
+			(at 109.22 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 109.22 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6177963-8474-43e5-9c46-75f77f49e88b")
+		)
+		(pin "2"
+			(uuid "8c1ae3c2-d096-43d0-8346-9e45eab8cee1")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 93.98 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79cb8b8c-be13-4919-bc4b-23b3ec2d50e7")
+		(property "Reference" "S23"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7dd8dcb8-e91a-4cb2-845e-675c2feabfba")
+		)
+		(pin "1"
+			(uuid "0d948190-d483-4707-b06b-be4c13628b25")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 85.09 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d53bee3-1c98-45f9-8390-8a97617ef5ff")
+		(property "Reference" "D8"
+			(at 87.63 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 87.63 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72c8c12e-52a3-4949-b3b3-f4fe690c1a2b")
+		)
+		(pin "2"
+			(uuid "ee25276c-c403-4481-bbb7-dc5061518792")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:PRO MICRO NRF USE THIS ONE PLEASE")
+		(at 203.2 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82e53360-945c-4145-98ff-d1f70a9e5dde")
+		(property "Reference" "MCU1"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PRO MICRO NRF"
+			(at 202.946 95.758 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:PROMICRO NRF52840"
+			(at 203.454 77.978 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 138.43 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "76f72d87-d59d-4369-a0cb-7f39af62271c")
+		)
+		(pin "10"
+			(uuid "d85faa65-a20c-4447-a9ee-153b1d2375a8")
+		)
+		(pin "13"
+			(uuid "4f418e30-ab6d-4645-b3a4-a881b58aa1aa")
+		)
+		(pin "16"
+			(uuid "8b77d2b6-6115-4da3-8680-68a5bc2c8972")
+		)
+		(pin "21"
+			(uuid "a677812c-fd67-4447-a9fe-80360ee31c86")
+		)
+		(pin "25"
+			(uuid "ed7ae8ed-6398-441b-823d-fd2d5484a457")
+		)
+		(pin "20"
+			(uuid "8817b5d4-d3a0-4ae2-bdea-be2bd3816101")
+		)
+		(pin "12"
+			(uuid "1eaf0e5e-b368-45f1-a840-36ae77f70218")
+		)
+		(pin "26"
+			(uuid "3a2051ac-0d3a-4d92-842f-a0cf15158312")
+		)
+		(pin "17"
+			(uuid "9d90e86a-ae65-474c-ae87-74ef3373c3e0")
+		)
+		(pin "8"
+			(uuid "4ddc7a4d-5d31-4b2a-9f94-52b5eaabb54d")
+		)
+		(pin "11"
+			(uuid "85364dab-928f-4e73-a388-b1ff863cf39f")
+		)
+		(pin "5"
+			(uuid "07eb5701-519f-4bd5-9632-35e9f6aad08a")
+		)
+		(pin "9"
+			(uuid "28528356-0655-4cc2-b1e2-8c37521e23cf")
+		)
+		(pin "24"
+			(uuid "d8647455-7ff2-4658-b198-0d8c812de4e1")
+		)
+		(pin "19"
+			(uuid "a469da3c-f117-4c94-a02c-d740555a7ee3")
+		)
+		(pin "14"
+			(uuid "ecda720e-4cf5-4150-bace-e16b101b9e1a")
+		)
+		(pin "2"
+			(uuid "fd63d746-c2ef-4417-9516-fa2fb91c8c5b")
+		)
+		(pin "1"
+			(uuid "ad7edc82-632f-429c-a246-c8b0b9c20e4c")
+		)
+		(pin "3"
+			(uuid "c6fe230c-028f-4978-8b04-961b15ef2fab")
+		)
+		(pin "4"
+			(uuid "2fd62d9a-64f6-44f9-a02c-f8f85608e5ff")
+		)
+		(pin "15"
+			(uuid "7d9130ac-55d8-4c66-a40a-a77394bfb352")
+		)
+		(pin "6"
+			(uuid "e3e861b6-d2d3-4f43-9204-840d741c4e12")
+		)
+		(pin "18"
+			(uuid "7d965561-50dc-405e-af89-8e27d380a926")
+		)
+		(pin "22"
+			(uuid "62aee1ae-038c-489d-8d54-2327f86f709b")
+		)
+		(pin "7"
+			(uuid "2b1365a5-3257-4d5c-8fd0-67eeffee6fd1")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "MCU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 85.09 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84236e27-83bd-4228-b971-08d9f6695b1c")
+		(property "Reference" "D9"
+			(at 87.63 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 87.63 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2b96ec9-e271-49ce-a511-badcfd7ead3f")
+		)
+		(pin "2"
+			(uuid "b8fc04cc-3206-4cc7-83ce-fa5825676580")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 71.12 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "856e6562-559e-4451-86ae-b3d6007eb8df")
+		(property "Reference" "S6"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 71.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 71.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "308d92e7-084f-4126-91df-c4a15c4ac06b")
+		)
+		(pin "1"
+			(uuid "d1a5fbc4-e04c-484a-ba34-c001d51b78c9")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 93.98 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87a4c01d-a6fd-4628-8be8-16a173800a37")
+		(property "Reference" "S13"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5557cfc-a0c2-48df-8193-155f1efd9dc9")
+		)
+		(pin "1"
+			(uuid "210c30f8-e6bf-4d19-981f-b0ffe3e64972")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 62.23 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a51e39a-bc02-4c08-aa89-7250ac9fc825")
+		(property "Reference" "D4"
+			(at 64.77 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 64.77 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b1b8df1-0496-42dd-a9e0-00ee666e00f5")
+		)
+		(pin "2"
+			(uuid "62fb2b73-81ee-49b6-9433-97ae28f9f885")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 85.09 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b8501d8-b299-41e8-846c-11117d1fadee")
+		(property "Reference" "D11"
+			(at 87.63 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 87.63 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4bb6156-08ed-448b-b8df-6ed577bf889a")
+		)
+		(pin "2"
+			(uuid "db265f74-2e2d-45e6-aadd-0b4c99491904")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 106.68 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93863420-2c07-464c-a17c-e844bc61d30e")
+		(property "Reference" "D17"
+			(at 109.22 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 109.22 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f0fa425-2f2a-4cdb-85ad-87e5d49c8149")
+		)
+		(pin "2"
+			(uuid "bfcb56ba-d018-4a36-9239-c75328c54b6c")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 62.23 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93ae018e-c4b0-4a1f-9b5a-0ccf86492fb3")
+		(property "Reference" "D1"
+			(at 64.77 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 64.77 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c9ca9eb-8534-4cb5-90a1-66a20ebe10d9")
+		)
+		(pin "2"
+			(uuid "eb5b75dc-2720-491f-a08e-2f67fc08aab1")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 59.69 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9452d602-6665-4882-8f24-54e86dcb9cc6")
+		(property "Reference" "S3"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 59.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 59.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28828ab2-85c7-4fcf-af2a-21220e1b8949")
+		)
+		(pin "1"
+			(uuid "91cb5b6c-6864-4989-a102-5a8c49ad511a")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 93.98 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95798ff0-5c35-4464-be9c-c7de9889379a")
+		(property "Reference" "S33"
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9e9fa71-81c8-433f-b39c-1345fcf0219e")
+		)
+		(pin "1"
+			(uuid "92bcd71d-b74e-48d7-8587-4a3e41941da8")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 82.55 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95ee9dc3-88b9-42a6-a4b7-f5fdcb75867e")
+		(property "Reference" "S36"
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31520193-47d5-4056-a195-607f3536709e")
+		)
+		(pin "1"
+			(uuid "9aa567db-ce13-4842-909e-00da0b72c881")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 104.14 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97e7d057-f165-4f33-b788-1243083aa740")
+		(property "Reference" "S18"
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e6e2717-a8f2-4f10-8161-a58a5248f35b")
+		)
+		(pin "1"
+			(uuid "fbdc9106-c45c-46d5-b98f-9dd8998bdb87")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 59.69 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aa6e47c-0254-4a6e-bbf7-46628e33a28d")
+		(property "Reference" "S35"
+			(at 59.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 59.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03202c23-7bc1-404b-b091-a06ddf2c8e33")
+		)
+		(pin "1"
+			(uuid "be924a53-bb9e-4c3f-ae56-f942c68a7a8f")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 106.68 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a00eee86-f9c1-49d9-a623-d694eba39b97")
+		(property "Reference" "D19"
+			(at 109.22 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 109.22 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0433c870-d450-485a-bd78-a95818b90177")
+		)
+		(pin "2"
+			(uuid "e43d4b25-b372-4127-8a99-373d7b473574")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 59.69 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad6b63f4-7027-4fda-b810-80790eb08a7d")
+		(property "Reference" "S1"
+			(at 59.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0170a03-b227-48ed-a4e7-bfe714a42cac")
+		)
+		(pin "1"
+			(uuid "44735810-9a2a-4afc-8a4d-b04d385d3225")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 73.66 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "add0095f-c99a-40a7-afe6-75f34bcccb7c")
+		(property "Reference" "D7"
+			(at 76.2 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 76.2 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed6365cc-6fb6-44d9-8d51-8bd978b2abdc")
+		)
+		(pin "2"
+			(uuid "64e71b47-b609-451d-bc9c-2a3ca429cf45")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 104.14 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bea0b7f2-cbb9-4d5a-871c-b38a3aedc1dd")
+		(property "Reference" "S38"
+			(at 104.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 104.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 104.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 104.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1822f13d-f23c-4b41-9939-10a59a2f96c1")
+		)
+		(pin "1"
+			(uuid "36dee89e-2571-467a-933a-31f090be90b9")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 179.07 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1bb07f9-0afe-4f59-b205-6c05015d3352")
+		(property "Reference" "J1"
+			(at 179.705 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 179.705 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7befbe96-aff6-4332-9d36-90bc6605c321")
+		)
+		(pin "1"
+			(uuid "1a76e16c-d29c-448f-9280-e741ee53efb6")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 73.66 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3844c5d-2077-4ca3-b4a1-ddaaf8655c69")
+		(property "Reference" "D6"
+			(at 76.2 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 76.2 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f26f686-6cbe-42da-890e-77b2e4f96e74")
+		)
+		(pin "2"
+			(uuid "ab98e917-d2b3-4dde-b486-c0325705480d")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 93.98 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c81a427a-3ae8-4601-ac9c-ac6337829e01")
+		(property "Reference" "S12"
+			(at 93.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4aa428c3-1af4-4f2d-9a3b-8e4c49b95e06")
+		)
+		(pin "1"
+			(uuid "2eab749e-3537-473b-bd65-968d85fa41e7")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 96.52 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c84408-54ce-4584-bcc8-bf696ad9cc30")
+		(property "Reference" "D15"
+			(at 99.06 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 99.06 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89ccca44-ce50-49d2-b83f-8d0960c63eed")
+		)
+		(pin "2"
+			(uuid "bdd0cf4f-f35a-435f-9e70-7fc78bc91fe6")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 82.55 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca6e12d4-b0c5-4127-9a45-4593e13a9bbf")
+		(property "Reference" "S22"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 82.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6406795e-8268-4421-8a65-26f90eec6c4d")
+		)
+		(pin "1"
+			(uuid "3d5eac0c-ebc1-4741-8f93-20c1f084e630")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 104.14 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf4e8dda-267d-448d-8af2-8be111d356b7")
+		(property "Reference" "S29"
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93308321-83fc-4b2a-9615-ff2d1ae1c475")
+		)
+		(pin "1"
+			(uuid "18ff439f-ea3a-423b-b2f0-1851b9ca0c9b")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 104.14 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0061549-01a2-4295-88c7-2ba9b2707b86")
+		(property "Reference" "S16"
+			(at 104.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37963cdd-1806-42bd-a37f-47ccde542777")
+		)
+		(pin "1"
+			(uuid "0154deb5-a218-41fc-8e18-f16bba6dabf5")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 59.69 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3bb7c33-8662-415c-976d-d2a1deaf06b1")
+		(property "Reference" "S20"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 59.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8cbd96c-5113-4c16-acd5-1739fc0479fe")
+		)
+		(pin "1"
+			(uuid "7b3a8fea-7f29-4977-a1e1-fde94d6af991")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 93.98 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c031ac-2df5-4eda-be7e-3f7565a5c6a2")
+		(property "Reference" "S37"
+			(at 93.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e475e11-a791-43f0-94b0-ef7255772395")
+		)
+		(pin "1"
+			(uuid "257380e9-eeff-4169-a164-0c7bd71c94ec")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Diode")
+		(at 106.68 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcfa5e75-7963-4919-89cd-5feb4a5cd8ec")
+		(property "Reference" "D16"
+			(at 109.22 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Diode"
+			(at 109.22 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD 323 DIODE USE THIS ONE"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5213988c-3f39-4906-913f-43795bae0e9c")
+		)
+		(pin "2"
+			(uuid "dc19fd07-10df-44ed-a3c0-3877bc00896e")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 71.12 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddb7ffd5-ce07-4dbd-82b1-3f7bdd52dbef")
+		(property "Reference" "S21"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7a84dc3-1d13-4809-9ee0-c16e85c9b774")
+		)
+		(pin "1"
+			(uuid "ead2a23d-8d41-418e-8fb3-84e0669d5066")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 71.12 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e246448a-56dd-4d1a-86ee-96f56b06b257")
+		(property "Reference" "S31"
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac5eedeb-c146-49d1-93de-3243c68bcdd3")
+		)
+		(pin "1"
+			(uuid "c020191b-9160-4116-98e0-256bc6ea888f")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 104.14 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e339e108-a424-4b12-9d3b-a6c0a289348f")
+		(property "Reference" "S19"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f660408e-f857-42aa-8558-f60c31946118")
+		)
+		(pin "1"
+			(uuid "472bb36b-563f-4e4b-bb2f-b75d0e23a7cd")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 59.69 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f4d959-089e-4e27-b9d8-dd825a74b405")
+		(property "Reference" "S25"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90827683-5cee-49e8-bba8-4809c9d0137a")
+		)
+		(pin "1"
+			(uuid "c20bf61b-e9b6-4bea-a150-73fe769504eb")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 82.55 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e756d847-e799-41a7-85a2-09eb9275ce31")
+		(property "Reference" "S8"
+			(at 82.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 82.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e4d27b8-f1f7-471f-8459-e3e85046a1d2")
+		)
+		(pin "1"
+			(uuid "030cc34d-2c0f-40c7-a992-eea94d1e4137")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebs:Placeholder_Keyswitch")
+		(at 93.98 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7c2129-3fe0-4055-a082-b9149621fd50")
+		(property "Reference" "S15"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GATERON SINGLE ORIGINAL"
+			(at 93.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3abdbe2c-7972-4461-a34d-cdabdd20e8b0")
+		)
+		(pin "1"
+			(uuid "12347f1d-b567-4ac9-82d4-eab109434b70")
+		)
+		(instances
+			(project "kb reverse"
+				(path "/229ff22b-e6ee-4266-a697-5b75022c8c4f"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
